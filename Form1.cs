@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -84,6 +84,8 @@ namespace Number_Conversion_Program
 
         }
 
+
+
         private void button1_Click(object sender, EventArgs e) //Run Conversion Button
         {
             bool valid = false; //valid is initialised as false
@@ -143,6 +145,8 @@ namespace Number_Conversion_Program
             }
 
         }
+
+
 
         public bool BinaryInput(string userInput)
         {
@@ -216,6 +220,8 @@ namespace Number_Conversion_Program
 
         }
 
+
+
         public bool DenaryInput(string userInput)  //denary input
         {
             int denaryNum = -1; //set to -1 so if string not converted, it is not valid
@@ -280,6 +286,8 @@ namespace Number_Conversion_Program
             }
 
         }
+
+
 
         public bool HexadecimalInput(string userInput) //hex input
         {
@@ -368,6 +376,8 @@ namespace Number_Conversion_Program
 
         }
 
+
+
         public int BinaryToDenary(string binaryNum) //conversion of binary to denary
         {
             int toDenary = 0; //initialise the variable to store the result
@@ -387,6 +397,8 @@ namespace Number_Conversion_Program
             return toDenary; //returns the result of the conversion
 
         }
+
+
 
         public string DenaryToBinary(int denaryNum) //conversion of denary to binary
         {
@@ -417,6 +429,8 @@ namespace Number_Conversion_Program
 
         }
 
+
+
         public string BinaryToHex(string binaryNum) //binary to hex
         {
 
@@ -436,6 +450,8 @@ namespace Number_Conversion_Program
             return hexConv; //returns the result
 
         }
+
+
 
         public string nibbleToHex(int nibble)
         {
@@ -479,6 +495,8 @@ namespace Number_Conversion_Program
 
         }
 
+
+
         public string HexToBinary(string hexNum) //hex to binary
         {
 
@@ -491,6 +509,8 @@ namespace Number_Conversion_Program
             return binaryConv; //return binary result
 
         }
+
+
 
         public string hexCharToNibble(string hexChar) //single hex character to nibble
         {
@@ -654,6 +674,8 @@ namespace Number_Conversion_Program
 
         }
 
+
+
         private void RESETCONVERSION_Click(object sender, EventArgs e) //reset button for the conversion side on the gui
         {
 
@@ -690,6 +712,8 @@ namespace Number_Conversion_Program
 
         }
 
+
+
         private void RESETCALCULATION_Click(object sender, EventArgs e)//reset button for binary addition
         {
 
@@ -697,6 +721,8 @@ namespace Number_Conversion_Program
             inputBoxAdd2.Clear();
 
         }
+
+
 
         private void select_conv_Click(object sender, EventArgs e) //select button (selecting what conversion you want)
         {
@@ -763,6 +789,7 @@ namespace Number_Conversion_Program
             }
 
         }
+
 
         private void input_convert_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -887,6 +914,7 @@ namespace Number_Conversion_Program
         }
 
 
+
         private void input_addition1_KeyPress(object sender, KeyPressEventArgs e) //check for inputting num1 for binary addition
         {
 
@@ -906,6 +934,8 @@ namespace Number_Conversion_Program
 
         }
 
+
+
         private void input_addition2_KeyPress(object sender, KeyPressEventArgs e) //check for inputting num2 for binary addition
         {
 
@@ -924,6 +954,8 @@ namespace Number_Conversion_Program
             }
 
         }
+
+
 
         private void button2_Click(object sender, EventArgs e) //select button for converting
         {
@@ -994,6 +1026,8 @@ namespace Number_Conversion_Program
             inputBoxAdd2.Clear();
 
         }
+
+
 
         private void button3_Click(object sender, EventArgs e) //select button for addition
         {
@@ -1073,6 +1107,8 @@ namespace Number_Conversion_Program
             convToBox.Text = "Please Select";
 
         }
+
+
 
         private void button4_Click(object sender, EventArgs e) //back button
         {
