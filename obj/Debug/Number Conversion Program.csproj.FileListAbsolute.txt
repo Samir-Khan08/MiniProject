@@ -1,0 +1,10 @@
+C:\Users\samir\source\repos\Number Conversion Program\Number Conversion Program\bin\Debug\Number Conversion Program.exe.config
+C:\Users\samir\source\repos\Number Conversion Program\Number Conversion Program\bin\Debug\Number Conversion Program.exe
+C:\Users\samir\source\repos\Number Conversion Program\Number Conversion Program\bin\Debug\Number Conversion Program.pdb
+C:\Users\samir\source\repos\Number Conversion Program\Number Conversion Program\obj\Debug\Number Conversion Program.csproj.AssemblyReference.cache
+C:\Users\samir\source\repos\Number Conversion Program\Number Conversion Program\obj\Debug\Number_Conversion_Program.Form1.resources
+C:\Users\samir\source\repos\Number Conversion Program\Number Conversion Program\obj\Debug\Number_Conversion_Program.Properties.Resources.resources
+C:\Users\samir\source\repos\Number Conversion Program\Number Conversion Program\obj\Debug\Number Conversion Program.csproj.GenerateResource.cache
+C:\Users\samir\source\repos\Number Conversion Program\Number Conversion Program\obj\Debug\Number Conversion Program.csproj.CoreCompileInputs.cache
+C:\Users\samir\source\repos\Number Conversion Program\Number Conversion Program\obj\Debug\Number Conversion Program.exe
+C:\Users\samir\source\repos\Number Conversion Program\Number Conversion Program\obj\Debug\Number Conversion Program.pdb
